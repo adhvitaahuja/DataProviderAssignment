@@ -1,3 +1,4 @@
+package Task1;
 /*
 Dataprovider to read data from excel using hashmap with Optimized code
  */
@@ -38,7 +39,7 @@ public class Question1 {
         FileInputStream fis = null;
         XSSFSheet ws = null;
         XSSFWorkbook wb = null;
-        String filePath = "datafile.xlsx";
+        String filePath = "./datafile.xlsx";
         File xls = new File(filePath);
         try {
             fis = new FileInputStream(xls);
